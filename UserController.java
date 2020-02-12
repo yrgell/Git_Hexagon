@@ -20,4 +20,10 @@ public String signPro(@RequestParam userid, @RequestParam userPwd){
 	logger.info("경로:signPro");
 	return "user/signPro";
  }
+//회원수정 페이지로 이동
+@RequestMapping("/user/update")
+public String update(){
+	logger.info("경로:update");
+	return "user/update";
+ }
 }
