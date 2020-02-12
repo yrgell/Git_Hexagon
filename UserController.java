@@ -26,4 +26,10 @@ public String update(){
 	logger.info("경로:update");
 	return "user/update";
  }
+//회원 탈퇴 페이지로 이동
+@RequestMapping("/user/delete")
+public String delete(){
+	logger.info("경로:delete");
+	return "user/delete";
+ }
 }
