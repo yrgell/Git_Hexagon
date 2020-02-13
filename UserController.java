@@ -32,4 +32,12 @@ public String delete(){
 	logger.info("경로:delete");
 	return "user/delete";
  }
+
+//회원 조회
+@RequestMapping("/user/select")
+public String select(){
+	logger.info("경로:seletev");
+	return select
+ }
+
 }
